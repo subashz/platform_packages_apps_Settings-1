@@ -46,52 +46,52 @@
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Désactiver le Wi-Fi automatiquement</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Automatically turn off Wi-Fi after a set amount of time.</string>
-    <string name="wifi_timeout_summary1">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Disabled</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary">Désactiver automatiquement le Wi-Fi après un temps défini.</string>
+    <string name="wifi_timeout_summary1">Le Bluetooth se désactivera après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
+    <string name="wifi_timeout_summary2">Désactivé</string>
+    <string name="wifi_timeout_summary_never">Jamais</string>
+    <string name="wifi_timeout_summary_15secs">15 secondes</string>
+    <string name="wifi_timeout_summary_30secs">30 secondes</string>
     <string name="wifi_timeout_summary_1min">1 minute</string>
     <string name="wifi_timeout_summary_2mins">2 minutes</string>
     <string name="wifi_timeout_summary_5mins">5 minutes</string>
     <string name="wifi_timeout_summary_10mins">10 minutes</string>
     <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_1hour">1 heure</string>
+    <string name="wifi_timeout_summary_2hours">2 heures</string>
+    <string name="wifi_timeout_summary_4hours">4 heures</string>
+    <string name="wifi_timeout_summary_8hours">8 heures</string>
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
-    <string name="device_info_default">Unknown</string>
+    <string name="device_info_default">Inconnu</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a developer.</item>
+        <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> pas loin d\'être un développeur.</item>
+        <item quantity="other">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes pour être un développeur.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">You are now a developer!</string>
+    <string name="show_dev_on">Vous êtes maintenant développeur !</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already">No need, you are already a developer.</string>
+    <string name="show_dev_already">Inutile, vous êtes déjà développeur.</string>
     <!-- [CHAR LIMIT=NONE] Toast message when user attemps to launch developer otions before enabling it. -->
-    <string name="dev_settings_disabled_warning">Please enable developer options first.</string>
+    <string name="dev_settings_disabled_warning">Veuillez d\'abord activer les options développeur.</string>
     <!-- Category headings in left-pane header menu -->
     <skip></skip>
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
-    <string name="header_category_wireless_networks">Wireless &amp; networks</string>
+    <string name="header_category_wireless_networks">Wi-Fi &amp; réseaux</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
-    <string name="header_category_system">System</string>
+    <string name="header_category_system">Système</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_service_in">In Service</string>
+    <string name="radioInfo_service_in">Service en cours</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_service_out">Out of Service</string>
+    <string name="radioInfo_service_out">Hors service</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_service_emergency">Emergency Calls Only</string>
+    <string name="radioInfo_service_emergency">Appels d\'urgence uniquement</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_service_off">Radio Off</string>
+    <string name="radioInfo_service_off">Radio désactivée</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_roaming_in">Roaming</string>
+    <string name="radioInfo_roaming_in">Itinérance</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_roaming_not">Not Roaming</string>
+    <string name="radioInfo_roaming_not">Pas d\'itinérance</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_data_disconnected">Disconnected</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -201,7 +201,7 @@
     <!-- Bluetooth mac address message.  This message shows the bluetooth mac address for this device.  [CHAR LIMIT=120] -->
     <string name="bluetooth_footer_mac_message" product="default">Phone\'s Bluetooth address: <xliff:g id="bluetooth_mac_address">%1$s</xliff:g></string>
     <!-- Bluetooth mac address message.  This message shows the bluetooth mac address for this device.  [CHAR LIMIT=120] -->
-    <string name="bluetooth_footer_mac_message" product="tablet">Tablet\'s Bluetooth address: <xliff:g id="bluetooth_mac_address">%1$s</xliff:g></string>
+    <string name="bluetooth_footer_mac_message" product="tablet">Adresse Bluetooth de la tablette : <xliff:g id="bluetooth_mac_address">%1$s</xliff:g></string>
     <!-- Bluetooth mac address message.  This message shows the bluetooth mac address for this device.  [CHAR LIMIT=120] -->
     <string name="bluetooth_footer_mac_message" product="device">Device\'s Bluetooth address: <xliff:g id="bluetooth_mac_address">%1$s</xliff:g></string>
     <!-- Bluetooth Visibility disconnect question.  Asks the user if they wish to disconnect a paired bluetooth device.  [CHAR LIMIT=50] -->
